@@ -1,0 +1,9 @@
+Category,Requirement,Level,Notes
+HTTP Method,Must not affect Classification,MUST,DebugShrine policy — not an RFC 9110 clause
+HTTP Status,Must not affect Classification,MUST,404 is not BOUNDARY
+HTTP Header,Must not affect Classification,MUST,headers are metadata
+Request Metadata,May be stored in Record,MAY,observation only
+RouteError,Must not be derived from HTTP Status,MUST,Expected vs Actual only
+Surface,Must not be derived from HTTP Status,MUST,aggregation only
+Classification,Must not be overridden by HTTP layer,MUST,three public values only
+Snapshot,May consume HTTP-derived observations,MAY,snapshot remains non-verdict

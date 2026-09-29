@@ -1,0 +1,15 @@
+rfc9110_section,rfc9110_title,rfc_role,debugshrine_bind,ds_policy,not_equivalent
+1,Introduction,HTTP architecture and uniform interface,protocol version is metadata only,MUST NOT classify by HTTP version,HTTP/2≠GOVERNANCE
+1.3,Core operations,method expresses client intent to origin,Intent is application text not method token,MAY store method,GET≠NORMAL
+2.2,Conformance,HTTP participant roles,DebugShrine is a post-hoc notebook,n/a,repo≠origin server
+3.1,Resources,URI identifies target resource,URI MAY sit on Record,MAY,URI≠ExpectedGate
+3.2,Representations,payload plus metadata,body is not Surface,MUST NOT derive Surface from body,entity≠Locked
+5,Fields,header/trailer metadata,extra JSON allowed,MUST NOT change Class,Authorization≠GOVERNANCE
+7,Routing HTTP messages,intermediary HTTP routing,HTTP routing ≠ RouteError,RouteError from Expected vs Actual only,Host≠RouteDelta
+9,Methods,GET HEAD POST PUT DELETE CONNECT OPTIONS TRACE,method does not select Class,MUST NOT,POST≠GOVERNANCE
+9.2,Method properties,safe / idempotent,not GovernanceFlag,MUST NOT,safe≠NORMAL
+15,Status codes,1xx-5xx for HTTP recipients,status is not Class,MUST NOT,status≠Classification
+15.5,Client error 4xx,e.g. 404,404 is not BOUNDARY,MUST NOT,404≠BOUNDARY
+15.6,Server error 5xx,e.g. 500,500 is not GOVERNANCE,MUST NOT,500≠GOVERNANCE
+16,Extending HTTP,new methods/status/fields,still metadata,same as 5/9/15,extension≠local_code
+17,Security Considerations,HTTP-layer threats,out of method contract,OPS if ever,sec-consideration≠Classify

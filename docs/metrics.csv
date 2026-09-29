@@ -1,0 +1,20 @@
+ID,Layer,Metric,Description,Frequency,Owner
+C1,Contract,CorrectReading,Correct interpretation of repository boundaries,Weekly,Maintainer
+C2,Contract,PartialReading,Partially correct interpretation,Weekly,Maintainer
+C3,Contract,Misreading,Incorrect interpretation,Weekly,Maintainer
+C4,Contract,HallucinatedReading,Unsupported interpretation or invented behavior,Monthly,Maintainer
+N1,Narrative,TechnicalCompletion,Invented technical details,Weekly,Maintainer
+N2,Narrative,WorldCompletion,Invented lore or world-building,Weekly,Maintainer
+N3,Narrative,CharacterCompletion,Kenneth characterization frequency,Weekly,Maintainer
+N4,Narrative,IntentCompletion,Author intent speculation,Monthly,Maintainer
+B1,Boundary,PrivateRecognized,Missing components understood as unpublished/private,Monthly,Maintainer
+B2,Boundary,UnimplementedAssumed,Missing components assumed unfinished,Monthly,Maintainer
+B3,Boundary,RemovedAssumed,Missing components assumed removed,Monthly,Maintainer
+B4,Boundary,NonexistentAssumed,Missing components assumed nonexistent,Monthly,Maintainer
+F1,Omikuji,JokeInterpretation,Understood as humor,Weekly,Community
+F2,Omikuji,UIInterpretation,Understood as presentation layer,Weekly,Community
+F3,Omikuji,SnapshotInterpretation,Understood as snapshot narrative,Weekly,Community
+F4,Omikuji,FortuneMisinterpretation,Misidentified as fortune telling,Weekly,Community
+R1,RFC,RFCContamination,Claims such as 404=BOUNDARY,Weekly,Maintainer
+R2,RFC,ComplianceMisinterpretation,Claims of RFC classification compliance,Weekly,Maintainer
+R3,RFC,CrosswalkMisuse,Equivalence claims between RFC and DebugShrine concepts,Monthly,Maintainer

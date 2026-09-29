@@ -1,0 +1,44 @@
+DebugShrine METHOD CONTRACT v1.0
+
+Copyright (c) 2026 pi3xi-labs / wizyig
+
+Holder string adopted for this public pack (design decision 2026-09-30).
+Replace only with a later confirmed legal name; keep this line until then.
+
+This repository contains the public method contract
+for trajectory aggregation, surface generation, and classification.
+
+Included:
+
+- AuditRecord
+- Trajectory Aggregation
+- Surface Generation
+- Classification
+- JSON Schema
+- Reference Workbook
+
+Excluded:
+
+- Gate Dictionaries
+- Governance Policies
+- RFC Definitions
+- Boundary Subclassifications
+- Operational Mappings
+- Local Code Generators
+- Hexagram Engines
+
+Record is canonical.
+
+All derived artifacts must remain reproducible
+from records.
+
+Licensed under the Mozilla Public License 2.0.
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+
+Workbook note:
+
+The reference Excel workbook includes published default surface
+thresholds 0.35 (STABLE_LT) and 0.60 (LOCKED_GE) as operator-editable
+cells. Changing them is the operator's responsibility.
+
+This NOTICE does not claim "no numeric formula" or "no threshold column".
