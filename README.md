@@ -33,6 +33,8 @@ Not included:
 The absence of a component from this repository does not imply
 that the component does not exist. It means it is not published here.
 
+Unknown must remain visible as unknown: see [Rule-Z](docs/RULE_Z_PUBLIC.md).
+
 ## What This Repository Is Not
 
 - an HTTP framework
